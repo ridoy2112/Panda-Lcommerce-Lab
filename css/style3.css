@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+#booking-section
+{
+    font-family: 'Roboto', sans-serif;
+    background:url('../images/air/Panda\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+#confirm-booking{
+    display: none;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+}
+.container{
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 6px;
+}
+nav ul li a{
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+}
+nav ul li a:hover, a.active{
+    background-color: #3352F2;
+    border-radius: 5px;
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+}
+.booking-form{
+    background-color: #fff;
+    border:0;
+    padding: 25px;
+    border-radius: 5px;
+    float: left;
+    background-image: url("../images/air/plane2.jpg");
+    background-size: cover;
+}
+.booking-form h3{
+    margin: 10px 0px;
+}
+.booking-form  .input-group{
+    margin: 10px 0;
+}
+.f-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inp-width{
+    min-width: 300px;
+}
+.plus-minus-btn{
+    
+    padding: 10px;
+    margin-top: 17px;
+    word-spacing: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.green-color{
+  color: green;
+  font-weight: bold;
+  border: 0;
+  background-color: #fff;
+}
+.red-color{
+    color: red;
+    font-weight: bold;
+    border: 0;
+    background-color: #fff;
+}
+.button-place{
+    padding: 5px;
+    margin: 10px;
+    font-size:25px;
+    width: 35px;
+    
+}
+.booking-form  .calculations{
+    margin: 10px 0;
+}
+.booking-form  .calculations p{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.booking-form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #F3F5FF;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+.booking-form .inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.booking-content{
+    color: #fff;
+    width: 80%;
+}
+.booking-content h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.btn-style{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color:  #3352F2;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+}
+#confirm-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 220px ;
+
+}
+#ok-sign{
+    font-size: 50px;
+    border: 5px solid rgb(27, 134, 27);
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-image: linear-gradient(50deg,rgb(138, 255, 138),rgb(54, 192, 41));
+    
+}
+#receipt{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 15px;
+}

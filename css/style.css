@@ -1,0 +1,39 @@
+.panda-card{
+  border:0;
+}
+.Panda-card-footer{
+  border: 0;
+  background-color: white;
+}
+.categories img{
+  width:100px;
+  border-radius: 10px;
+}
+.panda-slide .carousel-item{
+  background-color: #fceae8;
+  border-radius: 10px;
+}
+.button{
+  background-image: linear-gradient(50deg,rgb(72, 248, 72),#9CB53B);
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  color:white;
+}
+.form{
+  color:#FABE4C; 
+  font-weight: bold;
+}
+input:focus{
+  font-size: 25px;
+}
+.details-image img{
+  width:50%;
+}
+.details{
+  border-radius: 20px;
+}
+.details{
+  border-radius: 15px;
+  border: 0;
+}
